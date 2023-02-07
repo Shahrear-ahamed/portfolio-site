@@ -1,0 +1,17 @@
+:root {
+  --gray: #888888;
+  --theme: #ff595a;
+  --primary: #ffffff;
+  --shadow: #0000001a;
+  --secondary: #000000;
+  --primary-transparent: #ffffff99;
+}
+
+[data-theme="dark"] {
+  --gray: #888888;
+  --theme: #fcba3a;
+  --primary: #0e1527;
+  --shadow: #ffffff1a;
+  --secondary: #ffffff;
+  --primary-transparent: #0e152799;
+}
