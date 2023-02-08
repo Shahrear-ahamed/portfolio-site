@@ -1,0 +1,25 @@
+.btn {
+  border: none;
+  display: flex;
+  cursor: pointer;
+  padding: 12px 22px;
+  border-radius: 8px;
+  align-items: center;
+  transform: skew(-10deg);
+  justify-content: center;
+  background-color: var(--accent);
+  transition: all 0.5s ease-in-out;
+}
+
+.btn_text {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  color: var(--primary-two);
+  transform: skew(10deg);
+}
+
+.btn:hover {
+  transition: all 0.5s ease-in-out;
+  box-shadow: -1px 15px 18px -15px var(--accent);
+}

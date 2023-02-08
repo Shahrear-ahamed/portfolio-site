@@ -3,7 +3,7 @@ import styles from "./Navbar.module.css";
 import { FaRegPaperPlane } from "react-icons/fa";
 import logoImage from "../../../public/shahrear_logo.png";
 import Image from "next/image";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+import ToggleSwitch from "../reusable/ToggleSwitch/ToggleSwitch";
 
 function Navbar() {
   const [isNav, setIsNav] = useState(false);

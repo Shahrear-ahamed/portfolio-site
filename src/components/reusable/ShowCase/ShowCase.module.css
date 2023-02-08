@@ -1,0 +1,22 @@
+.showCase_container {
+  display: flex;
+  color: black;
+  position: absolute;
+  border-radius: 6px;
+  padding: 10px 15px;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid var(--accent);
+  background-color: white;
+}
+
+.textOrIcon {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.title {
+  font-size: 12px;
+  font-weight: 500;
+}
