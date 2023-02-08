@@ -34,3 +34,11 @@ img {
   height: auto;
   max-width: 100%;
 }
+
+/* utility css are here */
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
