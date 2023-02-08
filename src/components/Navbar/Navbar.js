@@ -49,6 +49,28 @@ function Navbar() {
           </div>
         </div>
       </div>
+
+      {/* // mobile menu  */}
+      <div
+        className={`${styles.nav_menu_mobile}  ${
+          isNav && styles.mobile_nav_active
+        }`}>
+        <ul className={styles.nav_items_mobile}>
+          {menus.map((menu, i) => (
+            <li key={i} className={styles.nav_item_mobile}>
+              {menu}
+            </li>
+          ))}
+          <li>
+            <button className={styles.nav_contact_btn_mobile}>
+              <span className={styles.nav_btn_text}>
+                <FaRegPaperPlane style={{ marginRight: "10px" }} /> Let&apos;s
+                talk
+              </span>
+            </button>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 }

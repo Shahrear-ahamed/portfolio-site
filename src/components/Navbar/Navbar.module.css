@@ -137,6 +137,10 @@
   transform: rotate(45deg) translate(-50%, -50%);
 }
 
+.nav_menu_mobile {
+  display: none;
+}
+
 @media (max-width: 880px) {
   .nav_menu {
     display: none;
@@ -145,5 +149,51 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  }
+
+  .nav_menu_mobile {
+    top: 80px;
+    opacity: 0;
+    width: 100%;
+    left: 900px;
+    display: flex;
+    position: absolute;
+    padding: 10px 20px;
+    flex-direction: column;
+    background: var(--primary);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .mobile_nav_active {
+    left: 0px;
+    opacity: 1;
+  }
+
+  .nav_items_mobile li {
+    margin: 10px 0;
+  }
+
+  .nav_contact_btn_mobile {
+    display: flex;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 9px;
+    align-items: center;
+    transform: skew(-13deg);
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid var(--gray);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .menu_box {
+    width: 25px;
+    height: 23px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav_logo {
+    width: 170px;
   }
 }

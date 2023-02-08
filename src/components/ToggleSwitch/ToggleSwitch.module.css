@@ -19,3 +19,10 @@
 .moon {
   transition: all 0.3s ease-in-out;
 }
+
+@media (max-width: 768px) {
+  .toggleBtn {
+    width: 22px;
+    height: 22px;
+  }
+}
