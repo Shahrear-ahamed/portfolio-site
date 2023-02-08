@@ -41,6 +41,12 @@
   cursor: pointer;
 }
 
+.nav_item,
+.nav_item_mobile {
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .nav_item::after {
   width: 0%;
   content: "";
@@ -84,6 +90,7 @@
   color: var(--gray);
   align-items: center;
   transform: skew(13deg);
+  font-size: 14px;
 }
 
 .nav_contact_btn:hover {
@@ -170,7 +177,7 @@
   }
 
   .nav_items_mobile li {
-    margin: 10px 0;
+    margin: 15px 0;
   }
 
   .nav_contact_btn_mobile {
