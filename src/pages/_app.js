@@ -21,16 +21,6 @@ export default function App({ Component, pageProps }) {
     return null;
   }
 
-  // useEffect(() => {
-  //   const handleContextmenu = (e) => {
-  //     e.preventDefault();
-  //     console.log("context menu disabled");
-  //   };
-  //   document.addEventListener("contextmenu", handleContextmenu);
-  //   return function cleanup() {
-  //     document.removeEventListener("contextmenu", handleContextmenu);
-  //   };
-  // }, []);
   return (
     <ThemeProvider enableSystem={false} defaultTheme={"dark"}>
       <Head>

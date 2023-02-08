@@ -13,11 +13,11 @@ function Hero() {
       <div className={styles.hero_content}>
         <div>
           <span className={styles.sayHello}>Hello </span>
-          <h1>
-            I&apos;m <span>Shahrear ahamed </span>
-            <span>Full-Stack </span>Web Developer
+          <h1 className={styles.hero_title}>
+            I&apos;m <span className={styles.full_name}>Shahrear Ahamed </span>
+            <span className={styles.designation}>Full-Stack</span> Developer
           </h1>
-          <p>
+          <p className={styles.my_description}>
             Hey, I am Shahrear Ahamed, a professional and passionate, programmer
             and full-stack (MERN) web developer. If you want to develop or hire
             me, don&apos;t hesitate to contact me!
