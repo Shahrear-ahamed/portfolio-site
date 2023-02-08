@@ -1,17 +1,17 @@
 :root {
-  --gray: #888888;
-  --theme: #ff595a;
-  --primary: #ffffff;
+  --accent: #ff595a;
+  /* --accent: #6d28d9; */
+  --primary: #faf9f6;
   --shadow: #0000001a;
-  --secondary: #000000;
+  --secondary: #111314;
   --primary-transparent: #ffffff99;
 }
 
 [data-theme="dark"] {
-  --gray: #888888;
-  --theme: #fcba3a;
+  /* --accent: #fcba3a; */
+  --accent: #38bdf8;
   --primary: #0e1527;
   --shadow: #ffffff1a;
-  --secondary: #ffffff;
+  --secondary: #e7e8ea;
   --primary-transparent: #0e152799;
 }
