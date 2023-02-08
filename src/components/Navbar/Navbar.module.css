@@ -87,10 +87,10 @@
 .nav_btn_text {
   display: flex;
   font-size: 1rem;
+  font-size: 14px;
   color: var(--gray);
   align-items: center;
   transform: skew(13deg);
-  font-size: 14px;
 }
 
 .nav_contact_btn:hover {
