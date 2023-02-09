@@ -1,0 +1,29 @@
+.footer_container {
+  background-color: var(--accent-light);
+}
+
+.footer_body {
+  height: 150px;
+  display: flex;
+  font-size: 14px;
+  padding: 20px 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer_logo {
+  cursor: pointer;
+}
+
+.line_break {
+  width: 100%;
+  border: 1px solid var(--accent);
+}
+
+.copyright {
+  color: black;
+  padding: 10px 0;
+  font-size: 12px;
+  text-align: center;
+}

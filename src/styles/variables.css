@@ -1,6 +1,7 @@
 :root {
   --gray: #a5a5a5;
   --accent: #ff595a;
+  --accent-light: #ff595a1a;
   --primary: #faf9f6;
   --shadow: #0000001a;
   --secondary: #111314;
@@ -11,6 +12,7 @@
 [data-theme="dark"] {
   --gray: #a5a5a5;
   --accent: #38bdf8;
+  --accent-light: #38bdf81a;
   --primary: #0e1527;
   --shadow: #ffffff08;
   --secondary: #e7e8ea;
