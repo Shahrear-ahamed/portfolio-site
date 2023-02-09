@@ -6,6 +6,7 @@ import { MdOutlineBusinessCenter } from "react-icons/md";
 import FillButton from "../reusable/FillButton/FillButton";
 import Link from "next/link";
 import ShowCase from "../reusable/ShowCase/ShowCase";
+import SocialMedia from "../reusable/SocialMedia/SocialMedia";
 
 function Hero() {
   return (
@@ -34,8 +35,9 @@ function Hero() {
             </Link>
           </div>
 
-          <div>
+          <div className={styles.follow_social}>
             <span>Follow Me:</span>
+            <SocialMedia />
           </div>
         </div>
 

@@ -1,0 +1,29 @@
+.socials_container {
+  display: flex;
+  /* margin-left: 10px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.socials_container li {
+  width: 32px;
+  padding: 6px;
+  height: 32px;
+  display: flex;
+  cursor: pointer;
+  color: #111314;
+  margin-left: 20px;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  background-color: rgb(216, 216, 216);
+}
+
+.socials_container li a {
+  display: inherit;
+}
+
+.socials_container li:hover {
+  background-color: var(--accent);
+}
