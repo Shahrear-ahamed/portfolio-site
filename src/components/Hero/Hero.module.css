@@ -3,7 +3,7 @@
 }
 
 .hero_content {
-  gap: 20px;
+  gap: 40px;
   display: grid;
   padding: 20px 0;
   min-height: 600px;
@@ -36,7 +36,7 @@
 
 .my_description {
   margin: 20px 0;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .buttons {
@@ -46,6 +46,7 @@
 }
 
 .portfolio_link {
+  font-size: 14px;
   margin-left: 30px;
   text-decoration: underline;
 }
@@ -55,9 +56,26 @@
   margin: 30px 0;
   align-items: center;
 }
+.follow_text {
+  font-size: 15px;
+}
 
 .image_div {
   position: relative;
+}
+
+/* // experience are here  */
+.showcase_one {
+  top: 30%;
+  left: -20px;
+}
+.showcase_two {
+  top: 25%;
+  right: 0;
+}
+.showcase_three {
+  top: 85%;
+  left: 30%;
 }
 
 @media (max-width: 950px) {
@@ -81,9 +99,17 @@
   .hero_title {
     font-size: 36px;
   }
+  .showcase_one {
+    top: 35%;
+    left: -10px;
+  }
 }
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   .hero_title {
     font-size: 30px;
+  }
+  .showcase_one {
+    top: 50%;
+    left: 0px;
   }
 }

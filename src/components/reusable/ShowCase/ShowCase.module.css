@@ -3,15 +3,16 @@
   color: black;
   position: absolute;
   border-radius: 6px;
-  padding: 10px 15px;
+  padding: 6px 10px;
   align-items: center;
   flex-direction: column;
-  border: 3px solid var(--accent);
   background-color: white;
+  border: 3px solid var(--accent);
+  animation: float ease-in-out infinite;
 }
 
 .textOrIcon {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--accent);
 }
@@ -19,4 +20,16 @@
 .title {
   font-size: 12px;
   font-weight: 500;
+}
+
+@keyframes float {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-10px, 15px, 20px);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
 }

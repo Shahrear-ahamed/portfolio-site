@@ -36,7 +36,7 @@ function Hero() {
           </div>
 
           <div className={styles.follow_social}>
-            <span>Follow Me:</span>
+            <span className={styles.follow_text}>Follow Me:</span>
             <SocialMedia />
           </div>
         </div>
@@ -46,7 +46,8 @@ function Hero() {
           <ShowCase
             text="1+"
             title="Years of Experience"
-            position={{ top: "20%", left: "0" }}
+            style={styles.showcase_one}
+            anim_delay={{ animationDelay: "0.5s", animationDuration: "9s" }}
           />
           <Image
             src={HeroImage}
@@ -58,13 +59,15 @@ function Hero() {
           <ShowCase
             text="10+"
             title="Project Done"
-            position={{ top: "25%", right: "0" }}
+            style={styles.showcase_two}
+            anim_delay={{ animationDelay: "1.5s", animationDuration: "10s" }}
           />
 
           <ShowCase
             text="7+"
             title="Happy Clients"
-            position={{ top: "85%", left: "30%" }}
+            style={styles.showcase_three}
+            anim_delay={{ animationDelay: "1s", animationDuration: "8s" }}
           />
         </div>
       </div>
