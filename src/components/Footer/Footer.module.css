@@ -22,8 +22,10 @@
 }
 
 .copyright {
-  color: black;
-  padding: 10px 0;
   font-size: 12px;
+  padding: 10px 0;
+  font-weight: 200;
   text-align: center;
+  letter-spacing: 1px;
+  color: var(--secondary);
 }
