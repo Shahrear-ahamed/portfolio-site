@@ -54,3 +54,24 @@ img {
   margin: 0 auto;
   max-width: 1200px;
 }
+
+.section_title {
+  font-size: 34px;
+  margin: 20px 0;
+}
+
+.highlight_text {
+  color: var(--accent);
+}
+
+@media (max-width: 600px) {
+  .section_title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 450px) {
+  .section_title {
+    font-size: 24px;
+  }
+}

@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
+import MyWorks from "@/components/MyWorks/MyWorks";
 import Navbar from "@/components/Navbar/Navbar";
 import Specialized from "@/components/Specialized/Specialized";
 import Head from "next/head";
@@ -17,6 +18,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Specialized />
+        <MyWorks />
         <Footer />
       </main>
     </>

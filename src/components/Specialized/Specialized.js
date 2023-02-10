@@ -7,8 +7,8 @@ const Specialized = () => {
   return (
     <section className="container">
       <div className={styles.specialized_section}>
-        <h2 className={styles.specialized_content_title}>
-          I&apos;m Specialized in
+        <h2 className="section_title">
+          I&apos;m <span className="highlight_text">Specialized</span> in
         </h2>
         <div className={styles.specialized_container}>
           {team.map((item, i) => (
