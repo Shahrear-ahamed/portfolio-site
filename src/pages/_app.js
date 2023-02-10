@@ -1,13 +1,11 @@
+import Head from "next/head";
 import "@/styles/globals.css";
 import "@/styles/variables.css";
-import Head from "next/head";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { ThemeProvider } from "next-themes";
 
 export default function App({ Component, pageProps }) {
-  const [mounted, setMounted] = useState(false);
   useEffect(() => {
-    setMounted(true);
     const handleContextmenu = (e) => {
       e.preventDefault();
     };
@@ -16,10 +14,6 @@ export default function App({ Component, pageProps }) {
       document.removeEventListener("contextmenu", handleContextmenu);
     };
   }, []);
-
-  if (!mounted) {
-    return null;
-  }
 
   return (
     <ThemeProvider enableSystem={false} defaultTheme={"dark"}>

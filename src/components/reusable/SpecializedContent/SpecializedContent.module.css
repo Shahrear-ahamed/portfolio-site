@@ -1,0 +1,54 @@
+.single_div {
+  padding: 25px;
+  border-radius: 22px;
+  transform: skewX(-4deg);
+  border: 2px solid var(--gray);
+  transition: all 0.5s ease-in-out;
+}
+
+.specialized_div {
+  transform: skewX(4deg);
+}
+
+.icon_div {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: center;
+  background: var(--accent);
+}
+
+.icon_div svg {
+  width: 50%;
+  height: 50%;
+  fill: white;
+}
+
+.specialized_title {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.specialized_text {
+  font-size: 14px;
+}
+
+.single_div:hover {
+  border: 2px solid var(--accent);
+  background-color: var(--accent);
+  transition: all 0.5s ease-in-out;
+  box-shadow: -1px 15px 18px -15px var(--accent);
+}
+
+.single_div:hover .icon_div {
+  background: var(--primary);
+  transition: all 0.5s ease-in-out;
+}
+
+.single_div:hover .specialized_title,
+.single_div:hover .specialized_text {
+  color: var(--primary);
+  transition: all 0.5s ease-in-out;
+}
