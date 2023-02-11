@@ -61,6 +61,7 @@ img {
 }
 
 .highlight_text {
+  font-size: inherit;
   color: var(--accent);
 }
 
