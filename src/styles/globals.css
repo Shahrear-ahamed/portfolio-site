@@ -71,6 +71,10 @@ img {
 }
 
 @media (max-width: 880px) {
+  .container_wrapper {
+    margin: 50px auto;
+  }
+
   .container_large {
     padding: 0;
   }

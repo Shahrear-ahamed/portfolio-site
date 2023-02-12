@@ -88,9 +88,9 @@
 
 @media (max-width: 880px) {
   .hero_content {
-    gap: 10px;
-    grid-template-columns: 1fr;
+    padding: 50px 0;
     justify-items: center;
+    grid-template-columns: 1fr;
   }
   .hero_title {
     font-size: 40px;

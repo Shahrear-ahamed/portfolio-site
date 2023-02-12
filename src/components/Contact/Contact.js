@@ -71,7 +71,7 @@ function Contact() {
           <div className={styles.input_div}>
             <label className={styles.input_label_textarea} htmlFor="message">
               Message:
-              <textarea name="message" id="message" cols="30" rows="3" />
+              <textarea name="message" id="message" cols="30" rows="4" />
             </label>
           </div>
 

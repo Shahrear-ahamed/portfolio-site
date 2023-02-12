@@ -83,6 +83,7 @@
 .input_label_textarea textarea {
   width: 100%;
   border: none;
+  resize: none;
   outline: none;
   color: black;
   margin-left: 18px;
@@ -98,6 +99,6 @@
 @media (max-width: 660px) {
   .contact_div {
     grid-template-columns: 1fr;
-    padding: 50px 20px;
+    padding: 20px 20px;
   }
 }

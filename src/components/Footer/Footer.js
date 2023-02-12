@@ -19,7 +19,7 @@ function Footer() {
         <SocialMedia />
       </div>
       <hr className={styles.line_break} />
-      <p className={styles.copyright}>&#169; Shahrear ahamed {year}</p>
+      <p className={styles.copyright}>&#169; Shahrear ahamed {year} | V 1.0</p>
     </footer>
   );
 }
