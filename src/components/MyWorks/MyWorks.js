@@ -10,7 +10,7 @@ function MyWorks() {
     { image: EchoImage, title: "Food panda", text: "Full stack" },
   ];
   return (
-    <section className="container">
+    <section className="container container_wrapper">
       <div className={styles.my_works_container}>
         <h2 className="section_title">
           My <span className="highlight_text">Work&apos;s</span>

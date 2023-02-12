@@ -1,5 +1,5 @@
 .my_works_container {
-  margin: 150px 0;
+  /* margin: 100px 0; */
 }
 
 .works_div {
@@ -50,4 +50,16 @@
 
 .image_overlay_text {
   font-size: 14px;
+}
+
+@media (max-width: 880px) {
+  .works_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 440px) {
+  .works_div {
+    grid-template-columns: 1fr;
+  }
 }

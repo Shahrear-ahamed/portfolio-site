@@ -114,7 +114,7 @@
   width: 28px;
   height: 25px;
   display: flex;
-  margin-left: 15px;
+  margin-left: 30px;
   flex-direction: column;
   justify-content: space-between;
   transition: all 0.5s ease-in-out;
@@ -168,7 +168,7 @@
     left: 900px;
     display: flex;
     position: absolute;
-    padding: 10px 20px;
+    padding: 40px;
     flex-direction: column;
     background: var(--primary);
     transition: all 0.3s ease-in-out;
@@ -179,8 +179,8 @@
     opacity: 1;
   }
 
-  .nav_items_mobile li {
-    margin: 15px 0;
+  .nav_item_mobile {
+    margin: 25px 0;
   }
 
   .nav_contact_btn_mobile {

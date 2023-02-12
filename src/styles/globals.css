@@ -55,6 +55,11 @@ img {
   max-width: 1200px;
 }
 
+.container_wrapper {
+  margin: 100px auto;
+  padding: 50px 0;
+}
+
 .section_title {
   font-size: 34px;
   margin: 20px 0;
@@ -63,6 +68,12 @@ img {
 .highlight_text {
   font-size: inherit;
   color: var(--accent);
+}
+
+@media (max-width: 880px) {
+  .container_large {
+    padding: 0;
+  }
 }
 
 @media (max-width: 600px) {

@@ -11,7 +11,8 @@ function Contact() {
     console.log("Message sent");
   };
   return (
-    <section className={`container ${styles.contact_section}`}>
+    <section
+      className={`container container_wrapper ${styles.contact_section}`}>
       <div className={styles.contact_div}>
         <div className={styles.contact_details}>
           <h2 className={`section_title ${styles.title}`}>
