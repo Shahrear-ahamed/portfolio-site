@@ -17,8 +17,8 @@
   font-size: 14px;
 }
 
-.hero_title {
-  margin: 15px 0;
+.hero_title,
+.hero_title span {
   line-height: 1.2;
   font-size: 44px;
   font-weight: 700;
@@ -92,22 +92,27 @@
     justify-items: center;
     grid-template-columns: 1fr;
   }
-  .hero_title {
+
+  .hero_title,
+  .hero_title span {
     font-size: 40px;
   }
 }
 
 @media (max-width: 600px) {
-  .hero_title {
+  .hero_title,
+  .hero_title span {
     font-size: 36px;
   }
+
   .showcase_one {
     top: 35%;
     left: -10px;
   }
 }
 @media (max-width: 450px) {
-  .hero_title {
+  .hero_title,
+  .hero_title span {
     font-size: 30px;
   }
   .showcase_one {

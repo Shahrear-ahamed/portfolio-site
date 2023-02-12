@@ -8,7 +8,7 @@ function MySingleWork({ image, title, text }) {
       <Image src={image} alt="Echo electronics" className={styles.image} />
 
       <div className={styles.image_overlay}>
-        <h5 className={styles.image_overlay_title}>{title}</h5>
+        <h4 className={styles.image_overlay_title}>{title}</h4>
         <p className={styles.image_overlay_text}>{text}</p>
       </div>
     </div>

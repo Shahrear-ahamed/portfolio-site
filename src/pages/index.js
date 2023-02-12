@@ -1,3 +1,4 @@
+import About from "@/components/About/About";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
@@ -18,6 +19,7 @@ export default function Home() {
       <main>
         <Navbar />
         <Hero />
+        <About />
         <Specialized />
         <MyWorks />
         <Contact />

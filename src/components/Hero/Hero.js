@@ -45,7 +45,7 @@ function Hero() {
         <div className={styles.image_div}>
           <ShowCase
             text="1+"
-            title="Years of Experience"
+            title="Years Experience"
             style={styles.showcase_one}
             anim_delay={{ animationDelay: "0.5s", animationDuration: "9s" }}
           />
@@ -58,7 +58,7 @@ function Hero() {
 
           <ShowCase
             text="10+"
-            title="Project Done"
+            title="Projects Done"
             style={styles.showcase_two}
             anim_delay={{ animationDelay: "1.5s", animationDuration: "10s" }}
           />
