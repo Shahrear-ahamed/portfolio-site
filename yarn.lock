@@ -158,6 +158,18 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
+"@react-buddy/ide-toolbox-next@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@react-buddy/ide-toolbox-next/-/ide-toolbox-next-2.4.0.tgz#e4dc4850137f86ace0b066715e3db4e61ac02645"
+  integrity sha512-3EGm40qx3SXM4grLK/qBh/RYOVwn3YWBBKUV/HKrEYiyyBcnhBxFhw/DGbobqUZVec8fS+KDKoutg4WKhFf4Mw==
+  dependencies:
+    "@react-buddy/ide-toolbox" "^2.3.1"
+
+"@react-buddy/ide-toolbox@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@react-buddy/ide-toolbox/-/ide-toolbox-2.3.1.tgz#4e3815eab3198dddcb360b9874640dbd468cb870"
+  integrity sha512-xH4rVPvG8nADggIFJk3mlAQtZg05HwhPcsdnPhHw9JMuxSQi8qXG+0ImQSS58QjIFY9BGtAv2geAbIPBuh9q0w==
+
 "@rushstack/eslint-patch@^1.1.3":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"

@@ -46,7 +46,7 @@
 .nav_item,
 .nav_item_mobile {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .nav_item::after {
